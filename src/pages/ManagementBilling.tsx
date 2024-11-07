@@ -1,8 +1,11 @@
+import BillingList from "@/containers/BillingList";
 
 const ManagementBilling = () => {
   return (
-    <div>ManagementBilling</div>
-  )
-}
+    <div>
+      <BillingList />
+    </div>
+  );
+};
 
-export default ManagementBilling
+export default ManagementBilling;

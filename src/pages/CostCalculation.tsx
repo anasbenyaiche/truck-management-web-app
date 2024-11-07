@@ -1,7 +1,11 @@
+import CalculDesCoutsDeReparation from "@/containers/CalculDesCoutsDeReparation";
+
 const CostCalculation = () => {
   return (
-    <div>CostCalculation</div>
-  )
-}
+    <div>
+      <CalculDesCoutsDeReparation />
+    </div>
+  );
+};
 
-export default CostCalculation
+export default CostCalculation;

@@ -1,7 +1,11 @@
+import StockTrackingList from "@/containers/TrackingStocksList";
+
 const StocksTracking = () => {
   return (
-    <div>StocksTracking</div>
-  )
-}
+    <div>
+      <StockTrackingList />
+    </div>
+  );
+};
 
-export default StocksTracking
+export default StocksTracking;

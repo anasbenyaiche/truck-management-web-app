@@ -1,7 +1,14 @@
+import Labors from "@/containers/Labors";
+import RequiredPiece from "@/containers/RequiredPiece";
+
 const PartsAndLabor = () => {
   return (
-    <div>PartsAndLabor</div>
-  )
-}
+    <div>
+      PartsAndLabor
+      <RequiredPiece />
+      <Labors />
+    </div>
+  );
+};
 
-export default PartsAndLabor
+export default PartsAndLabor;

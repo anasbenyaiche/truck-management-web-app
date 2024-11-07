@@ -1,7 +1,11 @@
+import RateManagementList from "@/containers/RateManagementList";
+
 const ManagementRates = () => {
   return (
-    <div>ManagementRates</div>
-  )
-}
+    <div>
+      <RateManagementList />
+    </div>
+  );
+};
 
-export default ManagementRates
+export default ManagementRates;

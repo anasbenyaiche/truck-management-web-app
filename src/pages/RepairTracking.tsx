@@ -1,7 +1,11 @@
+import RepairTrackingList from "@/containers/RepairTrackingList";
+
 const RepairTracking = () => {
   return (
-    <div>RepairTracking</div>
-  )
-}
+    <div>
+      <RepairTrackingList />
+    </div>
+  );
+};
 
-export default RepairTracking
+export default RepairTracking;

@@ -1,7 +1,12 @@
+import ProcurementList from "@/containers/ProcurementItems";
+
 const SupplyPieces = () => {
   return (
-    <div>SupplyPieces</div>
-  )
-}
+    <div>
+      {" "}
+      <ProcurementList />
+    </div>
+  );
+};
 
-export default SupplyPieces
+export default SupplyPieces;

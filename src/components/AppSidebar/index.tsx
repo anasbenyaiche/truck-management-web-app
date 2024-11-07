@@ -25,7 +25,8 @@ export function AppSidebar() {
       <Sidebar>
         <SidebarContent>
           <SidebarGroup>
-            <SidebarGroupLabel>Application</SidebarGroupLabel>
+            <SidebarGroupLabel>
+             <img src="png/truck.png" width={50} /> Application</SidebarGroupLabel>
             <SidebarGroupContent>
               <SidebarMenu>
                 {SIDEBAR_MENU_ITEMS.map((item) => (

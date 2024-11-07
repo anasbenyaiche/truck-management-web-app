@@ -1,7 +1,11 @@
+import PurchaseList from "@/containers/PurchaseList";
+
 const PurchaseHistory = () => {
   return (
-    <div>PurchaseHistory</div>
-  )
-}
+    <div>
+      <PurchaseList />
+    </div>
+  );
+};
 
-export default PurchaseHistory
+export default PurchaseHistory;

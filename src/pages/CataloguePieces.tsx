@@ -1,8 +1,11 @@
+import PartsCatalogue from "@/containers/PartCatalogueList";
 
 const CataloguePieces = () => {
   return (
-    <div>CataloguePieces</div>
-  )
-}
+    <div>
+      <PartsCatalogue />
+    </div>
+  );
+};
 
-export default CataloguePieces
+export default CataloguePieces;
